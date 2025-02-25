@@ -3,7 +3,8 @@ import torch
 from PIL import Image
 from torchvision import transforms
 from PIL import Image
-from model_data import model, device
+from model_data import device
+from model_data import model
 
 
 model.load_state_dict(torch.load("cancerClassifier_model.pth"))
